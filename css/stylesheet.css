@@ -12,12 +12,25 @@ body{
 	width: 100%;
 }
 
+#corps{
+	display:flex;
+	flex-direction: row;
+}
+
+#corps #navigation{
+	width: 20%;
+}
+
+#corps #contenu{
+	width: 80%;
+	padding-left: 20px;
+}
+
 #navigation ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-align: center;
-	width: 25%;
 	background-color: #5c5c8a;
 }
 
@@ -57,4 +70,16 @@ body{
 
 #navigation li:hover ul li{
 	float: right;
+}
+
+#contenu{}
+
+#pied{
+	font-size: 0.75em;
+	background-color: #5c5c8a;
+	margin: 2px 0px 0px 0px;
+}
+
+#pied a{
+	color: #08088A;
 }
