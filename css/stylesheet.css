@@ -1,0 +1,60 @@
+body{
+	background: #85a3ad;
+	font-family: Arial, sans-serif;
+	color: white;
+}
+
+#entete h1{
+	text-align: center;
+}
+
+#banniere{
+	width: 100%;
+}
+
+#navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	width: 25%;
+	background-color: #5c5c8a;
+}
+
+#navigation li{
+	float: none;
+	margin: auto;
+	padding: 0;
+}
+
+#navigation li a{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	text-decoration: none;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#navigation li ul{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	z-index: 1;
+	width: 30em;
+	background-color: #8585ad;
+}
+
+#navigation ul li ul{
+	display: none;
+}
+
+#navigation ul li:hover ul{
+	display: flex;
+	flex-direction: row;
+}
+
+#navigation li:hover ul li{
+	float: right;
+}
