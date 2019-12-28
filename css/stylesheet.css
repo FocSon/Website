@@ -12,18 +12,35 @@ body{
 	width: 100%;
 }
 
-#corps{
-	display:flex;
+.cote-a-cote-row-reverse{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.cote-a-cote-row{
+	display: flex;
 	flex-direction: row;
 }
 
+.cote-a-cote-row .element2{
+	padding-left: 20px;
+}
+
+.cote-a-cote-row-reverse .element1{
+	padding-left: 20px;
+}
+
 #corps #navigation{
-	width: 20%;
+	width: 25%;
 }
 
 #corps #contenu{
-	width: 80%;
-	padding-left: 20px;
+	width: 75%;
+}
+
+#navigation{
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #navigation ul{
@@ -35,14 +52,13 @@ body{
 }
 
 #navigation li{
-	float: none;
+	float: top;
 	margin: auto;
 	padding: 0;
 }
 
 #navigation li a{
-	display: flex;
-	flex-direction: column;
+	display: block;
 	color: white;
 	text-decoration: none;
 	width: 100%;
@@ -51,28 +67,38 @@ body{
 }
 
 #navigation li ul{
-	margin: 0px;
-	padding: 0px;
 	position: absolute;
 	z-index: 1;
-	width: 30em;
 	background-color: #8585ad;
 }
 
 #navigation ul li ul{
 	display: none;
+	margin-left: calc(25% - 11px);
+	margin-top: -39px;
 }
 
 #navigation ul li:hover ul{
-	display: flex;
-	flex-direction: row;
+	display: block;
 }
 
 #navigation li:hover ul li{
-	float: right;
+	float: top;
 }
 
-#contenu{}
+#contenu p{
+	text-align: justify;
+}
+
+#contenu h2{
+	text-align: center;
+}
+
+#contenu img{
+	max-width: 100%;
+	min-width: 32vw;
+	max-height: 100%;
+}
 
 #pied{
 	font-size: 0.75em;
