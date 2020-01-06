@@ -116,6 +116,26 @@ body{
 	height: 200px;
 }
 
+.tac_fleches {
+	width: 100px;
+	height: 100px;
+}
+
+.tac_arc {
+	width: 200px;
+	height: 200px;
+}
+
+.tac_oiseau_roy{
+	width: 100px;
+	height: 100px;
+}
+
+.tac_palette {
+	width: 100px;
+	height: 100px;
+}
+
 .popup_image span {
 	display: none;
 }
