@@ -79,11 +79,15 @@ body{
 }
 
 #navigation ul li ul li:hover{
-	background: #7A67B2;
+	background: #878787;
 }
 
 #navigation li:hover ul li{
 	float: top;
+}
+
+#navigation ul li:hover{
+	background: #555555;
 }
 
 #contenu p{
@@ -193,4 +197,9 @@ form input[type="submit"]{
 	display: block;
 	margin-left: 225px;
 	width: 100px;
+}
+
+.course{
+	width: 200px;
+	height: 285px;
 }
