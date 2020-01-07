@@ -190,3 +190,14 @@ form input[type="submit"]{
 	margin-left: 225px;
 	width: 100px;
 }
+
+.bordure{
+
+	display: flex;
+	flex-direction: row;
+	border: 1px solid black;
+}
+
+.bordure img{
+	height: 75px;
+}
