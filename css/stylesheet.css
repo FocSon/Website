@@ -78,6 +78,10 @@ body{
 	display: block;
 }
 
+#navigation ul li ul li:hover{
+	background: #7A67B2;
+}
+
 #navigation li:hover ul li{
 	float: top;
 }
