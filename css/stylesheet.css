@@ -151,3 +151,38 @@ body{
 	background: #85a3ad;
 	opacity: 80%;
 }
+
+form{
+	margin-left: 20px;
+}
+
+form fieldset{
+	width: 500px;
+}
+
+form fieldset input{
+	margin-left: 35px;
+}
+
+form fieldset label{
+	margin-left: 35px;
+}
+
+form fieldset textarea{
+	margin-left: 35px;
+}
+
+form textarea{
+	width: 300px;
+	height: 150px;
+}
+
+form input{
+	width: 300px;
+}
+
+form input[type="submit"]{
+	display: block;
+	margin-left: 225px;
+	width: 100px;
+}

@@ -32,7 +32,37 @@
 				</div>
 
 				<div id="contenu" class="element2">
-					<p>test</p>
+					<p>Sur cette page, vous pouvez nous faire vos propositions de musique ou de sport !<br>Pensez à travailler vos arguments vous devrez nous convaincre !</p>
+
+					<form method="post">
+						<fieldset>
+							<legend>Informations personnelles</legend>
+
+							<label for="pseudo">Pseudo : </label><br>
+							<input type="text" name="pseudo" autocomplete="on" autofocus="on"><br><br>
+
+							<label for="email">Email : </label><br>
+							<input type="email" name="email" autocomplete="on"><br><br>
+						</fieldset><br>
+
+						<fieldset>
+							<legend>Proposition</legend>
+
+							<label for="proposition">Sport / Musique proposé(e) : </label><br>
+							<input type="text" name="proposition">
+							<select>
+								<option value="sport">Sport</option>
+								<option value="musique">Musique</option>
+							</select><br><br>
+
+							<label for="pourquoi">Pourquoi cette proposition : </label><br>
+							<textarea name="pourquoi" id="argument" autocomplete="off"></textarea>
+						</fieldset><br>
+
+						<div id="disparaitre">
+							<input type="submit" value="Valider"><br>
+						</div>
+					</form>
 				</div>
 			</div>
 
