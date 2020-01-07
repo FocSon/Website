@@ -1,5 +1,5 @@
 body{
-	background: #85a3ad;
+	background-color: black;
 	font-family: Arial, sans-serif;
 	color: white;
 }
@@ -44,7 +44,7 @@ body{
 	padding: 0;
 	list-style: none;
 	text-align: center;
-	background-color: #5c5c8a;
+	background-color: grey;
 }
 
 #navigation li{
@@ -55,7 +55,7 @@ body{
 
 #navigation li a{
 	display: block;
-	color: white;
+	color: black;
 	text-decoration: none;
 	width: 100%;
 	padding: 10px;
@@ -65,7 +65,7 @@ body{
 #navigation li ul{
 	position: absolute;
 	z-index: 1;
-	background-color: #8585ad;
+	background-color: lightgrey;
 }
 
 #navigation ul li ul{
@@ -97,7 +97,7 @@ body{
 
 #pied{
 	font-size: 0.75em;
-	background-color: #5c5c8a;
+	background-color: grey;
 	margin: 2px 0px 0px 0px;
 }
 
