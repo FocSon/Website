@@ -99,6 +99,10 @@ body{
 	max-height: 100%;
 }
 
+#contenu #equipement{
+	width: 350px;
+}
+
 #pied{
 	font-size: 0.75em;
 	background-color: grey;
@@ -202,4 +206,42 @@ form input[type="submit"]{
 .course{
 	width: 200px;
 	height: 285px;
+}
+
+#feedback{
+	margin-left : 57.5%;
+	display:flex;
+	flex-direction: row;
+}
+
+#pouce_aime_gris{
+	display: block;
+}
+
+#pouce_aime_pas_gris{
+	display: block;
+}
+
+#pouce_aime_orange{
+	display: none;
+}
+
+#pouce_aime_pas_orange{
+	display: none;
+}
+
+#aime:active img{
+	display: block;
+}
+
+#aime:active #pouce_aime_gris:active{
+	display: none;
+}
+
+#aime_pas:active img{
+	display: block;
+}
+
+#aime_pas:active #pouce_aime_pas_gris:active{
+	display: none;
 }
