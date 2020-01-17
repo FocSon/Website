@@ -164,8 +164,8 @@ body{
 	display: inline;
 	position: absolute;
 	box-shadow: 0 0 2px black;
-	background: #85a3ad;
-	opacity: 100%;
+	background: #000000;
+	opacity: 80%;
 }
 
 form{
