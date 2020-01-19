@@ -238,10 +238,10 @@ form input[type="submit"]{
 	display: none;
 }
 
-#aime_pas:active img{
+#aime:active img{
 	display: block;
 }
 
-#aime_pas:active #pouce_aime_pas_gris:active{
+#aime:active #pouce_aime_pas_gris:active{
 	display: none;
 }
